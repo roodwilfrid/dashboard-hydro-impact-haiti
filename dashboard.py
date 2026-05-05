@@ -9,13 +9,9 @@ import plotly.graph_objects as go
 # 1. Charger les données
 # =====================================================
 
-df_global = pd.read_csv(
-    r"C:\Users\jnpie\OneDrive\Documents\stat_zone\dataset_global.csv"
-)
+df_global = pd.read_csv("dataset_global.csv")
 
-df_impacts = pd.read_excel(
-    r"C:\Users\jnpie\OneDrive\Documents\stat_zone\impacts_communes.xlsx"
-)
+df_impacts = pd.read_excel("impacts_communes.xlsx")
 
 # =====================================================
 # 2. Nettoyer les noms de communes
